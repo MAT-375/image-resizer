@@ -1,8 +1,9 @@
 import cv2
 import time
 
+newImageName = "newImageName.png"
 path = "C:\\path\\to\\image\\"
-destination = "C:\\path\\to\\destination\\image-name.png"
+destination = "C:\\path\\to\\destination\\" + newImageName
 src = cv2.imread(path + "0.jpg", cv2.IMREAD_UNCHANGED)
 cv2.imshow("title", src)
 
