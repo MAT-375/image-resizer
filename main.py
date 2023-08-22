@@ -1,8 +1,8 @@
 import cv2
 import time
 
-path = "C:\\Users\\Ahsan\\Downloads\\GMC\\"
-destination = "H:\\Python\\Projects\\image-resizer\\new_image.png"
+path = "C:\\path\\to\\image\\"
+destination = "C:\\path\\to\\destination\\image-name.png"
 src = cv2.imread(path + "0.jpg", cv2.IMREAD_UNCHANGED)
 cv2.imshow("title", src)
 
